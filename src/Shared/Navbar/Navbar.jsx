@@ -32,13 +32,33 @@ const NavItems = ({ handleToggleMenu }) => {
 //=================================
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
+  //-------Handle----Toggle----Button-------
   const handleToggleMenu = () => {
     setIsMenuOpen((prevState) => !prevState);
   };
 
+  //-------Navbar-Change-state-----And-Apply-Bg-Color-------
+  useState(() =>{
+    const handleSchroll = () =>{
+      if( window.scrollY > 50){
+      setIsScrolled(true)
+      }else{
+        setIsScrolled(false)
+      }
+    }
+    window.addEventListener('scroll', handleSchroll)
+    return () => {
+      window.addEventListener("scroll", handleSchroll);
+    }
+  },[])
+
+
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 transition duration-300 ease-in-out text-white`}>
+    <header
+      className={`fixed top-0 left-0 right-0 z-50 transition duration-300 ease-in-out  ${isScrolled ? "bg-white shadow-2xl text-black" : "bg-transparent text-white"}`}
+    >
       <nav className="max-w-screen-2xl container m-auto flex gap-5 items-center justify-between py-6 px-4">
         {/*-----------Logo-----------------*/}
         <Link to="/" className="font-bold">
