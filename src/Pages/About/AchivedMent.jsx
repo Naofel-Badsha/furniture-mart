@@ -2,7 +2,7 @@ import { TbBrandSuperhuman } from "react-icons/tb";
 
 const AchivedMent = () => {
   return (
-    <section className="max-w-screen-2xl container mx-auto py-18 px-4 my-24">
+    <section className="max-w-screen-2xl container mx-auto md:py-18 px-4 my-24">
       <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
         {/*----------------Card--------1-------------*/}
         <div className="bg-[#FAFAFA] border-[#FAFAFA] hover:border-[#FFA704] border-[1px] py-10 px-10 rounded-xl">

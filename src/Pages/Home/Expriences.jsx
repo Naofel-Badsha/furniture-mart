@@ -13,7 +13,7 @@ const Expriences = () => {
           <h3 className="text-xl text-[#FFA704] font-semibold mb-4">
             EXPERIENCES{" "}
           </h3>
-          <h1 className="text-5xl font-bold">
+          <h1 className="text-3xl md:text-5xl font-bold">
             We Provide You The Best Experience
           </h1>
           <p className="text-[18px] mt-5 lg:w-2/2">

@@ -9,7 +9,7 @@ const About = () => {
     <section className="min-h-screen">
       {/*---------Banner--------*/}
       <div
-        className="w-full h-[600px] bg-cover bg-center flex items-center justify-center text-white"
+        className="w-full h-[400px] md:h-[600px] bg-cover bg-center flex items-center justify-center text-white"
         style={{ backgroundImage: `url(${banner}` }}
       >
         <h1 className="text-4xl font-bold ">Our About Us</h1>

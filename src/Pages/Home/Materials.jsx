@@ -9,7 +9,7 @@ const Materials = () => {
           <h3 className="text-xl text-[#FFA704] font-semibold mb-4">
             MATERIALS
           </h3>
-          <h1 className="text-5xl font-bold">
+          <h1 className="text-3xl md:text-5xl font-bold">
             Very Serious Materials For Making Furniture
           </h1>
           <p className="text-[18px] dark:text-white mt-5 lg:w-1/2">

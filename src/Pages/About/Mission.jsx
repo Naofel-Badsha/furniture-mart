@@ -11,19 +11,19 @@ const Mission = () => {
         {/*------------Images--------*/}
         <div className="overflow-hidden md:w-1/2">
           <img
-            className="transform hover:scale-125 duration-700 w-full h-[600px]"
+            className="transform hover:scale-125 duration-700 w-full md:h-[600px]"
             src="https://i.ibb.co.com/39KvJhcv/about-us-2.jpg"
             alt=""
           />
         </div>
         {/*------------Content-----------*/}
         <div className="bg-[#FAFAFA] md:w-1/2 flex items-center justify-center">
-          <div className="px-20">
+          <div className="px-5 py-10 md:px-20 md:py-20">
             <div className="bg-[#FFA704] w-fit p-3 rounded-full ">
               <TbBrandSuperhuman className="text-4xl text-white" />
             </div>
 
-            <h1 className="text-4xl font-medium text-black mt-5">
+            <h1 className="text-3xl md:text-4xl font-medium text-black mt-5">
               Crafting Furniture That Brings Comfort, Beauty, and Durability to
               Every Home
             </h1>
@@ -46,12 +46,12 @@ const Mission = () => {
       <div className="flex flex-col md:flex-row">
         {/*------------Content-----------*/}
         <div className="bg-[#FAFAFA] md:w-1/2 flex items-center justify-center">
-          <div className="px-20">
+          <div className="px-5 py-10 md:px-20 md:py-20">
             <div className="bg-[#FFA704] w-fit p-3 rounded-full ">
               <SiMitsubishi className="text-4xl text-white" />
             </div>
 
-            <h1 className="text-4xl font-medium text-black mt-5">
+            <h1 className="text-3xl md:text-4xl font-medium text-black mt-5">
               To Become the Most Trusted Name in Modern, Sustainable Furniture
             </h1>
             <p className="mt-5 text-[18px]">
@@ -70,7 +70,7 @@ const Mission = () => {
         {/*------------Images--------*/}
         <div className="overflow-hidden md:w-1/2">
           <img
-            className="transform hover:scale-125 duration-700 w-full h-[600px]"
+            className="transform hover:scale-125 duration-700 w-full md:h-[600px]"
             src="https://i.ibb.co.com/7NTrxckH/about-us-3.jpg"
             alt=""
           />

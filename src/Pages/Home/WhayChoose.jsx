@@ -5,7 +5,7 @@ const WhayChoose = () => {
     <section className="max-w-screen-2xl container mx-auto py-6 px-4">
       <div className="my-24 grid gap-10 md:grid-cols-2 lg:grid-cols-4">
         <div>
-          <h2 className="text-4xl font-bold">
+          <h2 className="text-3xl md:text-4xl font-bold">
             Why <br /> Choosing Us
           </h2>
         </div>
