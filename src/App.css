@@ -1,6 +1,22 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
-.section-container{
-    @apply max-w-screen-2xl container mx-auto py-6 px-4;
+.section-container {
+  @apply max-w-screen-2xl container mx-auto py-6 px-4;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  padding: 0.5rem 1rem !important;
+  border-radius: 9999px !important;
+  background-color: white !important;
+  color: black !important;
+  font-size: 1.125rem !important;
+  border: 1px solid rgb(245 158 11) !important;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: rgb(245 158 11) !important;
+  color: white !important;
 }

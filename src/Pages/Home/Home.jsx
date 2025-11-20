@@ -3,6 +3,8 @@ import Hero from './Hero';
 import WhayChoose from './WhayChoose';
 import Products from '../Shop/Products';
 import Expriences from './Expriences';
+import Materials from './Materials';
+import Testimonial from './Testimonial';
 
 const Home = () => {
     return (
@@ -11,6 +13,8 @@ const Home = () => {
            <WhayChoose />
            <Products headline="Best Selling Product"/>
            <Expriences />
+           <Materials />
+           <Testimonial />
         </>
     );
 };
