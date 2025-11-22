@@ -15,7 +15,7 @@ const Products = ({ headline }) => {
 
   return (
     <section className="max-w-screen-2xl container mx-auto py-6 px-4">
-      <h2 className="text-3xl md:text-4xl font-bold text-black text-center">{headline}</h2>
+      <h2 className="text-3xl md:text-4xl font-bold dark:text-white text-center">{headline}</h2>
       {/*-----------Category----Tab-----------*/}
       <div className="bg-[#eeeeee] w-fit mx-auto sm:rounded-full md:p-2.5 mt-7 mb-16">
         <div className="flex flex-wrap py-2 md:py-0 md:flex-row items-center md:justify-between justify-center gap-4 ">

@@ -20,3 +20,6 @@
   background-color: rgb(245 158 11) !important;
   color: white !important;
 }
+.dark{
+  @apply bg-gray-900 text-white
+}
